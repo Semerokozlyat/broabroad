@@ -1,0 +1,13 @@
+env: "local"
+httpServer:
+  address: "127.0.0.1:9090"
+  timeout: 4s
+  idleTimeout: 30s
+db:
+  name: "test-db"
+  connectionString: "mongodb://localhost:27017"
+log:
+  level: "debug"
+access:
+  user: "test"
+  password: "qwerty1"
